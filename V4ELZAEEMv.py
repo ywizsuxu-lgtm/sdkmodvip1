@@ -267,7 +267,7 @@ def enforce_trial():
     if start is None:
         _save_trial(now_)
         start = now_
-    if (now_ - start) > TRIAL_DAYS * 9999:
+    if False:
         clr()
         print(BANNER)
         print(div())
@@ -275,6 +275,7 @@ def enforce_trial():
         print(paint(f"  Contact: {CONTACT}", Color.YELLOW))
         print(div())
         sys.exit(1)
+
 
 # ======================================================================
 #  Allowlist
