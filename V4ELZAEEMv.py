@@ -267,7 +267,7 @@ def enforce_trial():
     if start is None:
         _save_trial(now_)
         start = now_
-    if (now_ - start) > TRIAL_DAYS * 86400:
+    if (now_ - start) > TRIAL_DAYS * 9999:
         clr()
         print(BANNER)
         print(div())
