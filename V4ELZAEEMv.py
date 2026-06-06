@@ -50,7 +50,7 @@ except ImportError:
 VERSION    = "6.0"
 TOOL_NAME  = "ZAEEM ULTRA"
 CONTACT    = "@ZAEEM_S1"
-TRIAL_DAYS = 3
+TRIAL_DAYS = 9999
 PROXY_TTL  = 3600
 GITHUB_PROXY_URL = "https://github.com/ywizsuxu-lgtm/sdkmodvip1/raw/refs/heads/main/proxies.txt"
 PROXY_FILE        = Path.home() / ".zaeem_proxies.json"
